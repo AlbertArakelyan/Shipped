@@ -5,8 +5,8 @@
   "author": {
     "name": "Albert Arakelyan"
   },
-  "homepage": "https://github.com/OWNER/wrapped",
-  "repository": "https://github.com/OWNER/wrapped",
+  "homepage": "https://github.com/AlbertArakelyan/Wrapped",
+  "repository": "https://github.com/AlbertArakelyan/Wrapped",
   "license": "MIT",
   "keywords": ["video", "wrapped", "year-in-review", "git", "hyperframes", "skill"],
   "skills": "./skills/",
@@ -17,7 +17,7 @@
     "developerName": "Albert Arakelyan",
     "category": "Productivity",
     "capabilities": ["Read", "Write", "Execute"],
-    "websiteURL": "https://github.com/OWNER/wrapped",
+    "websiteURL": "https://github.com/AlbertArakelyan/Wrapped",
     "defaultPrompt": [
       "Make my year in code wrapped.",
       "Wrap up my coding year as a video.",

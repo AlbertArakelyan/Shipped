@@ -22,11 +22,11 @@ Everything runs locally, so private and work repos are fine. Every number on scr
 **Install** (Claude Code):
 
 ```
-/plugin marketplace add OWNER/wrapped
+/plugin marketplace add AlbertArakelyan/Wrapped
 /plugin install wrapped@wrapped
 ```
 
-Other agents (Codex CLI, opencode, …): `npx skills add https://github.com/OWNER/wrapped --skill wrapped`
+Other agents (Codex CLI, opencode, …): `npx skills add https://github.com/AlbertArakelyan/Wrapped --skill wrapped`
 
 **Needs** Node 18+, git, ffmpeg, and the HyperFrames skills (`npx skills add heygen-com/hyperframes --all`). Don't want HyperFrames? Use `/wrapped-slim`, which builds the video with whatever is on your machine.
 
