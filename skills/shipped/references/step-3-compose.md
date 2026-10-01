@@ -2,20 +2,20 @@
 
 ## 3a. Write `<out>/composition-brief.md`
 
-The brief is the boundary between the two skills. /wrapped decides *what* the video says and how it should feel; HyperFrames decides *how* it's built.
+The brief is the boundary between the two skills. /shipped decides *what* the video says and how it should feel; HyperFrames decides *how* it's built.
 
 ```markdown
-# HyperFrames Composition Brief: <Name>'s <range.label> Wrapped
+# HyperFrames Composition Brief: <Name>'s <range.label>, shipped
 
 ## Objective
 A <N>-second, <format> recap of one developer's year in code, made to be posted. Story-card grammar: one idea per card, huge numbers, full-bleed color, cuts on the beat, persona reveal as the climax.
 
 ## Output
-- Video composition: `<out>/composition/` → `<out>/wrapped.mp4`, [W]x[H], 30fps, [N]s
-- Share-card composition: `<out>/card/` → `<out>/wrapped-card.png`, 1080x1350, a single still frame
+- Video composition: `<out>/composition/` → `<out>/shipped.mp4`, [W]x[H], 30fps, [N]s
+- Share-card composition: `<out>/card/` → `<out>/shipped-card.png`, 1080x1350, a single still frame
 
 ## Source of truth
-- Plan and storyboard: `<out>/wrapped-plan.md` (the creative contract)
+- Plan and storyboard: `<out>/shipped-plan.md` (the creative contract)
 - Every on-screen number and quote: the plan's **Fact sheet**. Copy values exactly; format them with thousands separators, and never round in a way that changes the claim.
 - Data available for visuals: `<out>/stats.json` (heatmap 7×24, byMonth, byHour, languages), `<out>/ai-stats.json` if present
 
@@ -25,7 +25,7 @@ A <N>-second, <format> recap of one developer's year in code, made to be posted.
 - Type: [display] / [body] (Google Fonts or a local fallback)
 - Texture: [grain / halftone / scanlines / none]
 - Persona motif: [description from the plan]
-- Avoid: Spotify branding (logo, Circular font, green-on-black, the words "Spotify Wrapped"); emoji as icons; stock imagery; dashboards with tiny text; generic particle backgrounds; waveform/equalizer visuals
+- Avoid: Spotify branding (logo, Circular font, green-on-black, the word "Wrapped" anywhere); emoji as icons; stock imagery; dashboards with tiny text; generic particle backgrounds; waveform/equalizer visuals
 
 ## Chapters
 [one line per chapter: # — name — duration — exact copy — the visual (count-up / heatmap fill / bar race / calendar strip / cards) — sequential reveals]
@@ -38,12 +38,12 @@ A <N>-second, <format> recap of one developer's year in code, made to be posted.
 
 ## Audio
 - Music: [resolved file in composition/assets/music/ or "none"] · mood [..] · bed volume 0.30–0.40, fading out under the summary card
-- Beat locks: persona reveal on the strongest cue; big-number slam and unwrap on strong cues (±0.15s); sequential items on the beat grid (±0.10s) but never faster than the reading floor
+- Beat locks: persona reveal on the strongest cue; big-number slam and cold open on strong cues (±0.15s); sequential items on the beat grid (±0.10s) but never faster than the reading floor
 - SFX guidance: `<skill-dir>/assets/sfx/sfx-analysis.md`. HyperFrames chooses exact files and times after the animation exists; copy only the used files into `composition/assets/sfx/`.
 - Audio-reactive: subtle, e.g. background grain or card glow breathing on bass. Never on text size.
 
 ## HyperFrames instructions
-Load `hyperframes-core`, `hyperframes-animation`, `hyperframes-creative`, `hyperframes-keyframes`, `hyperframes-cli` (and `hyperframes-registry` for named effects). /wrapped is its own workflow: don't run the `hyperframes` intent interview and don't route into another workflow. Prefer native HyperFrames conventions over anything in this brief.
+Load `hyperframes-core`, `hyperframes-animation`, `hyperframes-creative`, `hyperframes-keyframes`, `hyperframes-cli` (and `hyperframes-registry` for named effects). /shipped is its own workflow: don't run the `hyperframes` intent interview and don't route into another workflow. Prefer native HyperFrames conventions over anything in this brief.
 
 Requirements:
 - All text readable: big numbers hold ≥ 1.2s settled, sentences ≈ 0.3s/word.

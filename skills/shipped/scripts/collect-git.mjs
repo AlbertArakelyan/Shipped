@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// /wrapped git collector: reads local git history and writes stats.json.
+// /shipped git collector: reads local git history and writes stats.json.
 //
 //   node collect-git.mjs [--path <repo>] [--roots <dir,dir>] [--all]
 //                        [--year 2026 | --since YYYY-MM-DD --until YYYY-MM-DD]
@@ -61,7 +61,7 @@ const mine = [];
 const skipped = [];
 const otherAuthors = new Map();
 for (const [i, repo] of repos.entries()) {
-  if (repos.length > 1) process.stderr.write(`\rwrapped: reading ${i + 1}/${repos.length} ${path.basename(repo).slice(0, 40).padEnd(40)}`);
+  if (repos.length > 1) process.stderr.write(`\rshipped: reading ${i + 1}/${repos.length} ${path.basename(repo).slice(0, 40).padEnd(40)}`);
   let commits;
   try { commits = readCommits(repo, range); } catch (e) { skipped.push({ repo: path.basename(repo), reason: e.message.split('\n')[0] }); continue; }
   for (const c of commits) {
@@ -143,7 +143,7 @@ const subjects = mine.map((c) => c.subject);
 const countRe = (re) => subjects.filter((s) => re.test(s)).length;
 
 const stats = {
-  schema: 'wrapped/stats@1',
+  schema: 'shipped/stats@1',
   generatedAt: new Date().toISOString(),
   range,
   anonymized: anon,
@@ -210,13 +210,13 @@ const stats = {
   })),
 };
 
-const out = path.resolve(args.out ?? 'wrapped-output/stats.json');
+const out = path.resolve(args.out ?? 'shipped-output/stats.json');
 fs.mkdirSync(path.dirname(out), { recursive: true });
 fs.writeFileSync(out, JSON.stringify(stats, null, 2));
 console.log(summary(stats, out));
 
 // ---- helpers ---------------------------------------------------------------
-function fail(msg) { console.error(`wrapped: ${msg}`); process.exit(1); }
+function fail(msg) { console.error(`shipped: ${msg}`); process.exit(1); }
 
 function makeRepoLabeler() {
   const labels = new Map();
@@ -262,7 +262,7 @@ function funnyShortlist(cs) {
 function summary(s, file) {
   const t = s.totals;
   return [
-    `wrapped: ${t.commits} commits across ${s.scope.activeRepoCount}/${s.scope.repoCount} repos (${s.range.since} to ${s.range.until})`,
+    `shipped: ${t.commits} commits across ${s.scope.activeRepoCount}/${s.scope.repoCount} repos (${s.range.since} to ${s.range.until})`,
     `  +${t.linesAdded} / -${t.linesDeleted} lines, ${t.activeDays} active days, longest streak ${s.time.longestStreak.days} days`,
     `  top language: ${s.languages.find((l) => l.code)?.name ?? 'n/a'}, peak hour ${s.time.peakHour}:00, late-night ${s.time.lateNightPct}%`,
     s.scope.skipped.length ? `  skipped ${s.scope.skipped.length} repo(s): ${s.scope.skipped.map((x) => x.repo).join(', ')}` : null,

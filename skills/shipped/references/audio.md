@@ -4,7 +4,7 @@ The default is a music bed plus a few well-timed SFX. Turn them off with `--no-m
 
 ## Music: resolved at run time, not bundled
 
-/wrapped doesn't ship music, because we only bundle audio whose license clearly allows redistribution. Get a track per run through the HyperFrames `media-use` skill:
+/shipped doesn't ship music, because we only bundle audio whose license clearly allows redistribution. Get a track per run through the HyperFrames `media-use` skill:
 
 ```bash
 node <media-use-skill-dir>/scripts/resolve.mjs --type bgm --intent "<mood from plan, e.g. bright synth-pop year-in-review, builds to a drop, 120 bpm>" --project <out>/composition
@@ -37,7 +37,7 @@ npx hyperframes beats <out>/composition
 ```
 
 Use the highest-strength beats as strong cues:
-- Lock 2–3 major moments within ±0.15s: the unwrap, the big-number slam, and the persona reveal (always).
+- Lock 2–3 major moments within ±0.15s: the cold open, the big-number slam, and the persona reveal (always).
 - Snap sequential items (award cards, heatmap sweep milestones, bar-race finishes) to the beat grid within ±0.10s.
 - For readable text, use every other beat at fast tempos. Readability beats rhythm.
 
@@ -55,7 +55,7 @@ If `beats` isn't available (older HyperFrames), write "Music cue guidance: unava
 
 ## Voice (only with `--voice`)
 
-Write the narration in `wrapped-plan.md` under `## Voiceover script`. It should complement the cards, not read them aloud: the cards show "1,625", and the voice says "That's a lot of commits. Let's see where they went." Keep it short enough to fit the duration.
+Write the narration in `shipped-plan.md` under `## Voiceover script`. It should complement the cards, not read them aloud: the cards show "1,625", and the voice says "That's a lot of commits. Let's see where they went." Keep it short enough to fit the duration.
 
 ```bash
 npx hyperframes tts "<script>" --voice af_heart --output <out>/composition/assets/voiceover.wav

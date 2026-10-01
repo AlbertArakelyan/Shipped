@@ -1,27 +1,27 @@
 {
-  "name": "wrapped",
+  "name": "shipped",
   "version": "0.1.0",
-  "description": "Your year in code, as a Spotify-Wrapped-style video, rendered locally with HyperFrames.",
+  "description": "Your year in code, shipped: a vertical year-in-review video rendered locally with HyperFrames.",
   "author": {
     "name": "Albert Arakelyan"
   },
-  "homepage": "https://github.com/AlbertArakelyan/Wrapped",
-  "repository": "https://github.com/AlbertArakelyan/Wrapped",
+  "homepage": "https://github.com/AlbertArakelyan/Shipped",
+  "repository": "https://github.com/AlbertArakelyan/Shipped",
   "license": "MIT",
-  "keywords": ["video", "wrapped", "year-in-review", "git", "hyperframes", "skill"],
+  "keywords": ["video", "year-in-review", "recap", "git", "hyperframes", "skill"],
   "skills": "./skills/",
   "interface": {
-    "displayName": "wrapped",
+    "displayName": "shipped",
     "shortDescription": "Your year in code, as a shareable recap video.",
-    "longDescription": "Reads your local git history and, if you allow it, your AI-coding sessions, finds the story of your year, and renders a vertical Wrapped-style video with music, a share card and share copy. Runs fully locally.",
+    "longDescription": "Reads your local git history and, if you allow it, your AI-coding sessions, finds the story of your year, and renders a vertical year-in-review video with music, a share card and share copy. Runs fully locally.",
     "developerName": "Albert Arakelyan",
     "category": "Productivity",
     "capabilities": ["Read", "Write", "Execute"],
-    "websiteURL": "https://github.com/AlbertArakelyan/Wrapped",
+    "websiteURL": "https://github.com/AlbertArakelyan/Shipped",
     "defaultPrompt": [
-      "Make my year in code wrapped.",
+      "Ship my year in code as a video.",
       "Wrap up my coding year as a video.",
-      "/wrapped --all --ai"
+      "/shipped --all --ai"
     ]
   }
 }

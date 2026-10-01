@@ -1,34 +1,34 @@
-# /wrapped
+# /shipped
 
-<a href="examples/lumark/lumark.mp4"><img src="examples/lumark/preview.gif" align="right" width="270" alt="A 40-second /wrapped recap of the Lumark repo: commits, heatmap, languages, awards, persona"></a>
+<a href="examples/lumark/lumark.mp4"><img src="examples/lumark/preview.gif" align="right" width="270" alt="A 40-second /shipped recap of the Lumark repo: commits, heatmap, languages, awards, persona"></a>
 
 **Your year in code, as a 40-second vertical video.**
 
-`/wrapped` is a Claude Code plugin. It reads your local git history (one repo or every repo on your machine), finds the story of your year, and renders a 9:16 recap video with [HyperFrames](https://github.com/heygen-com/hyperframes). It covers your biggest week, your habits, three awards and a coding persona. You can also include stats from your Claude Code and Codex sessions.
+`/shipped` is a Claude Code plugin. It reads your local git history (one repo or every repo on your machine), finds the story of your year, and renders a 9:16 recap video with [HyperFrames](https://github.com/heygen-com/hyperframes). It covers your biggest week, your habits, three awards and a coding persona. You can also include stats from your Claude Code and Codex sessions.
 
 ```
-/wrapped
+/shipped
 ```
 
 Everything runs locally, so private and work repos are fine. Every number on screen comes from your git history; the agent writes the jokes, but it doesn't make up facts.
 
 **One run gives you:**
 
-- `wrapped.mp4`: 1080×1920, 30fps, 30–45s, with music and sound effects
-- `wrapped.jpg`: the poster frame, also baked into the video as frame 0
-- `wrapped-card.png`: a 1080×1350 summary card for feeds
+- `shipped.mp4`: 1080×1920, 30fps, 30–45s, with music and sound effects
+- `shipped.jpg`: the poster frame, also baked into the video as frame 0
+- `shipped-card.png`: a 1080×1350 summary card for feeds
 - `share-copy.txt`: post text for X, LinkedIn and a short version
 
 **Install** (Claude Code):
 
 ```
-/plugin marketplace add AlbertArakelyan/Wrapped
-/plugin install wrapped@wrapped
+/plugin marketplace add AlbertArakelyan/Shipped
+/plugin install shipped@shipped
 ```
 
-Other agents (Codex CLI, opencode, …): `npx skills add https://github.com/AlbertArakelyan/Wrapped --skill wrapped`
+Other agents (Codex CLI, opencode, …): `npx skills add https://github.com/AlbertArakelyan/Shipped --skill shipped`
 
-**Needs** Node 18+, git, ffmpeg, and the HyperFrames skills (`npx skills add heygen-com/hyperframes --all`). Don't want HyperFrames? Use `/wrapped-slim`, which builds the video with whatever is on your machine.
+**Needs** Node 18+, git, ffmpeg, and the HyperFrames skills (`npx skills add heygen-com/hyperframes --all`). Don't want HyperFrames? Use `/shipped-slim`, which builds the video with whatever is on your machine.
 
 <sub>▶ The preview on the right is a GIF. Click it for the full MP4 with sound.</sub>
 
@@ -44,7 +44,7 @@ A real run on [Lumark](examples/lumark/), a TypeScript + Rust project: 150 commi
 
 **Chapter by chapter:**
 
-- `0:00` **Unwrap**: "2026, in code · Albert's year with #Lumark"
+- `0:00` **Cold open**: "2026, in code · Albert's year with #Lumark"
 - `0:02` **Origin**: First commit on Feb 12. *Two days later:* 14 commits on Valentine's Day
 - `0:05` **Big number**: **150** commits, counted up as dots
 - `0:08` **Lines**: **+6,840** added, **−1,385** deleted, net +5,455
@@ -67,9 +67,9 @@ A few things this run shows:
 ## Usage
 
 ```
-/wrapped                     # this repo, this year
-/wrapped --all --ai          # every repo on the machine + the AI chapter
-/wrapped --year 2025 --tone roast
+/shipped                     # this repo, this year
+/shipped --all --ai          # every repo on the machine + the AI chapter
+/shipped --year 2025 --tone roast
 ```
 
 Plain language works as well: *"wrap up my whole year across all my repos, roast me a little, square format."*
@@ -86,16 +86,16 @@ Plain language works as well: *"wrap up my whole year across all my repos, roast
 | `--anon` | hide repo names, file paths and emails | off |
 | `--name` | name on the title card | git `user.name` |
 | `--no-music` · `--no-sfx` · `--voice` | audio switches; `--voice` adds Kokoro narration | music + SFX, no voice |
-| `--full` | on Opus 5.5, use the full workflow instead of handing off to `/wrapped-slim` | — |
+| `--full` | on Opus 5.5, use the full workflow instead of handing off to `/shipped-slim` | — |
 
-Output goes to `wrapped-output/` in the current directory. If that folder already exists, it uses `wrapped-output-<timestamp>/` instead.
+Output goes to `shipped-output/` in the current directory. If that folder already exists, it uses `shipped-output-<timestamp>/` instead.
 
 ## How it works
 
 ```
- collect-git.mjs ─┐                     ┌─ wrapped-plan.md ──┐
-                  ├─► stats.json ─► ✋ ─┤                    ├─► HyperFrames ─► wrapped.mp4
- collect-ai.mjs ──┘   ai-stats.json     └─ composition-brief ┘                  wrapped-card.png
+ collect-git.mjs ─┐                     ┌─ shipped-plan.md ──┐
+                  ├─► stats.json ─► ✋ ─┤                    ├─► HyperFrames ─► shipped.mp4
+ collect-ai.mjs ──┘   ai-stats.json     └─ composition-brief ┘                  shipped-card.png
                                      privacy                                     share-copy.txt
                                      review
 ```
@@ -143,7 +143,7 @@ It never copies prompt text, response text or tool output. The parser tolerates 
 
 ## Personas
 
-The climax of every wrap. The first matching rule wins:
+The climax of every recap. The first matching rule wins:
 
 | Persona | Rule |
 |---|---|
@@ -173,14 +173,14 @@ The climax of every wrap. The first matching rule wins:
 .claude-plugin/        plugin.json, marketplace.json (Claude Code)
 .codex-plugin/         plugin.json (Codex)
 plugin.json            agent-plugins.org manifest
-skills/wrapped/
+skills/shipped/
   SKILL.md             entry point: options, steps, gates, ground rules
-  slim.md              copy of wrapped-slim, used for the Opus 5.5 hand-off
+  slim.md              copy of shipped-slim, used for the Opus 5.5 hand-off
   references/          step-1-collect · step-2-story · step-3-compose · step-4-deliver
                        personas · tones · audio
   scripts/             collect-git.mjs · collect-ai.mjs · lib/
   assets/sfx/          38 CC0 sounds + sfx-analysis.md/json
-skills/wrapped-slim/   single-file version, no HyperFrames needed
+skills/shipped-slim/   single-file version, no HyperFrames needed
 examples/lumark/       the run shown above
 scripts/               check-skills.mjs (CI checks) · link-skills.mjs
 ```
@@ -190,20 +190,19 @@ scripts/               check-skills.mjs (CI checks) · link-skills.mjs
 ```bash
 node scripts/check-skills.mjs        # frontmatter, links, manifest versions, slim copy, collector smoke test
 node scripts/link-skills.mjs         # (re)create .claude/.agents/.opencode skill links
-claude --plugin-dir .                # load the plugin locally, then run /wrapped
+claude --plugin-dir .                # load the plugin locally, then run /shipped
 
 # run the collectors on their own
-node skills/wrapped/scripts/collect-git.mjs --all --year 2026 --out /tmp/stats.json
-node skills/wrapped/scripts/collect-ai.mjs --year 2026 --out /tmp/ai-stats.json
+node skills/shipped/scripts/collect-git.mjs --all --year 2026 --out /tmp/stats.json
+node skills/shipped/scripts/collect-ai.mjs --year 2026 --out /tmp/ai-stats.json
 ```
 
-After editing `skills/wrapped-slim/SKILL.md`, copy it over `skills/wrapped/slim.md`. The check script fails if the two differ.
+After editing `skills/shipped-slim/SKILL.md`, copy it over `skills/shipped/slim.md`. The check script fails if the two differ.
 
 ## Credits
 
 - Sound effects by [Kenney](https://kenney.nl/) (CC0). SFX analysis adapted from [/brag](https://github.com/latent-spaces/brag) (MIT), which also inspired this project's structure.
 - Rendering by [HyperFrames](https://github.com/heygen-com/hyperframes).
-- "Wrapped" is used as a generic name for the year-in-review format. Not affiliated with Spotify.
 
 ## License
 

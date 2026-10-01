@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// /wrapped AI-coding collector: reads local Claude Code and Codex session logs and
+// /shipped AI-coding collector: reads local Claude Code and Codex session logs and
 // writes ai-stats.json. Counts only: it never copies prompt or response text.
 //
 //   node collect-ai.mjs [--year 2026 | --since YYYY-MM-DD --until YYYY-MM-DD]
@@ -72,7 +72,7 @@ const projLabel = makeLabeler();
 const merged = mergeSources();
 
 const stats = {
-  schema: 'wrapped/ai-stats@1',
+  schema: 'shipped/ai-stats@1',
   generatedAt: new Date().toISOString(),
   range,
   anonymized: anon,
@@ -109,12 +109,12 @@ const stats = {
   },
 };
 
-const out = path.resolve(args.out ?? 'wrapped-output/ai-stats.json');
+const out = path.resolve(args.out ?? 'shipped-output/ai-stats.json');
 fs.mkdirSync(path.dirname(out), { recursive: true });
 fs.writeFileSync(out, JSON.stringify(stats, null, 2));
 const t = stats.totals;
 console.log([
-  `wrapped: ${t.sessions} AI sessions (${stats.bySource.claude.sessions} Claude Code, ${stats.bySource.codex.sessions} Codex), ${t.prompts} prompts, ${t.activeHours} active hours`,
+  `shipped: ${t.sessions} AI sessions (${stats.bySource.claude.sessions} Claude Code, ${stats.bySource.codex.sessions} Codex), ${t.prompts} prompts, ${t.activeHours} active hours`,
   `  ${t.toolCalls} tool calls, ${fmt(t.tokens.total)} tokens, top model: ${stats.models[0]?.name ?? 'n/a'}, top tool: ${stats.tools[0]?.name ?? 'n/a'}`,
   !stats.found.claude && !stats.found.codex ? '  (no Claude Code or Codex session logs found)' : null,
   `  -> ${out}`,

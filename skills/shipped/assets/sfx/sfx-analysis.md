@@ -1,11 +1,11 @@
-# SFX library (bundled with /wrapped)
+# SFX library (bundled with /shipped)
 
 38 CC0 sounds from [Kenney](https://kenney.nl/) (public domain). Signal analysis comes from [/brag](https://github.com/latent-spaces/brag)'s analyzer (MIT), filtered to the files bundled here. The full data is in `sfx-analysis.json`.
 
 - **brightness:** warm / balanced / bright (spectral centroid).
 - **HF risk:** how sharp or fatiguing the sound gets when repeated. Use low/medium risk for anything that repeats (counter ticks, list rows); keep high-risk sounds for single accents.
 
-| File | Duration | Brightness | HF risk | Wrapped use |
+| File | Duration | Brightness | HF risk | Use in /shipped |
 |---|---|---|---|---|
 | `casino/card-fan-1.ogg` | 0.72s | bright | high | top-5 list fanning in |
 | `casino/card-place-1.ogg` | 0.69s | bright | high | award card landing |
@@ -13,7 +13,7 @@
 | `casino/card-slide-1.ogg` | 0.60s | balanced | medium | story card sliding in |
 | `casino/card-slide-2.ogg` | 0.58s | bright | high | story card sliding in |
 | `casino/card-slide-3.ogg` | 0.60s | bright | high | story card sliding in |
-| `casino/cards-pack-open-1.ogg` | 0.94s | bright | high | the "unwrap" moment in the intro |
+| `casino/cards-pack-open-1.ogg` | 0.94s | bright | high | the cold-open reveal |
 | `casino/chips-collide-1.ogg` | 0.26s | bright | high | celebration, totals landing |
 | `casino/chips-collide-2.ogg` | 0.23s | bright | high | celebration, totals landing |
 | `casino/chips-stack-1.ogg` | 0.29s | bright | high | count-up numbers stacking |
@@ -52,5 +52,5 @@
 - **Count-up while ticking:** `interface/click_003.ogg`, at most every 2–3 frames of the count and quiet (0.35–0.5). Or a single `casino/chips-stack-*` under the whole count.
 - **Story card slides in:** `casino/card-slide-*`. Vary the file between cards.
 - **Award or persona reveal:** `impact/impactBell_heavy_000.ogg` once. Don't stack bells.
-- **Intro "unwrap":** `casino/cards-pack-open-1.ogg`.
+- **Cold-open reveal:** `casino/cards-pack-open-1.ogg`.
 - **AI section switch-on:** `interface/switch_002.ogg`, or `interface/glitch_002.ogg` as a tiny accent.

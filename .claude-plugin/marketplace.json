@@ -1,14 +1,14 @@
 {
-  "name": "wrapped",
-  "description": "Your year in code, wrapped. One command turns your git history into a shareable recap video.",
+  "name": "shipped",
+  "description": "Your year in code, shipped. One command turns your git history into a shareable recap video.",
   "owner": {
     "name": "Albert Arakelyan"
   },
   "plugins": [
     {
-      "name": "wrapped",
+      "name": "shipped",
       "source": "./",
-      "description": "Turn your git history and AI-coding sessions into a Spotify-Wrapped-style recap video using HyperFrames."
+      "description": "Turn your git history and AI-coding sessions into a vertical year-in-review video using HyperFrames."
     }
   ]
 }

@@ -1,8 +1,8 @@
 #!/usr/bin/env node
-// Repo checks for /wrapped. Run before every release (and in CI):
+// Repo checks for /shipped. Run before every release (and in CI):
 //   node scripts/check-skills.mjs
 // - every SKILL.md has name + description frontmatter
-// - skills/wrapped/slim.md is identical to skills/wrapped-slim/SKILL.md
+// - skills/shipped/slim.md is identical to skills/shipped-slim/SKILL.md
 // - relative links inside skill markdown point at files that exist
 // - all manifests carry the same name and version
 // - collector scripts parse, and a dry run over this repo succeeds
@@ -29,8 +29,8 @@ for (const skill of fs.readdirSync(path.join(root, 'skills'))) {
 }
 
 // slim copy in sync
-if (read('skills/wrapped-slim/SKILL.md') !== read('skills/wrapped/slim.md')) {
-  errors.push('skills/wrapped/slim.md is out of sync. Fix: cp skills/wrapped-slim/SKILL.md skills/wrapped/slim.md');
+if (read('skills/shipped-slim/SKILL.md') !== read('skills/shipped/slim.md')) {
+  errors.push('skills/shipped/slim.md is out of sync. Fix: cp skills/shipped-slim/SKILL.md skills/shipped/slim.md');
 }
 
 // Relative links
@@ -55,8 +55,8 @@ const market = JSON.parse(read('.claude-plugin/marketplace.json'));
 if (!market.plugins?.some((p) => p.name === first.name)) errors.push('marketplace.json does not list the plugin');
 
 // Collectors run
-const scripts = path.join(root, 'skills/wrapped/scripts');
-const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'wrapped-check-'));
+const scripts = path.join(root, 'skills/shipped/scripts');
+const tmp = fs.mkdtempSync(path.join(os.tmpdir(), 'shipped-check-'));
 for (const [script, extra] of [['collect-git.mjs', ['--path', root, '--since', '2000-01-01']], ['collect-ai.mjs', ['--claude-dir', tmp, '--codex-dir', tmp]]]) {
   const r = spawnSync(process.execPath, [path.join(scripts, script), ...extra, '--out', path.join(tmp, script + '.json')], { encoding: 'utf8' });
   if (r.status !== 0) {

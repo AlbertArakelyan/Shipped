@@ -1,6 +1,6 @@
-# /wrapped
+# /shipped
 
-**One line:** Your year in code, wrapped. One command turns your git history into a shareable recap video.
+**One line:** Your year in code, shipped. One command turns your git history into a shareable recap video.
 
 **Who it's for:** developers who want to look back at their year and post it, especially in December.
 
@@ -14,4 +14,4 @@
 
 **Most quotable claims:** "Every number on screen comes from your data." "Nothing leaves your machine."
 
-**Share caption:** "My year in code, wrapped. Made with /wrapped."
+**Share caption:** "My year in code, shipped 🚢 Made with /shipped."

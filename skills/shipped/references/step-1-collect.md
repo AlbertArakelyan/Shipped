@@ -27,7 +27,7 @@ If a repo is listed under `scope.skipped`, mention it in one line and continue.
 
 ## What's in the files
 
-`stats.json` (`wrapped/stats@1`):
+`stats.json` (`shipped/stats@1`):
 
 | Path | Meaning |
 |---|---|
@@ -47,7 +47,7 @@ If a repo is listed under `scope.skipped`, mention it in one line and continue.
 | `moments[] {weekOf, commits, repos, subjects, sampleHashes}` | the 3 busiest weeks, the raw material for Step 2 |
 | `identities[]` | which emails were counted as the user |
 
-`ai-stats.json` (`wrapped/ai-stats@1`):
+`ai-stats.json` (`shipped/ai-stats@1`):
 
 | Path | Meaning |
 |---|---|
@@ -63,7 +63,7 @@ If a repo is listed under `scope.skipped`, mention it in one line and continue.
 Before planning, show the user what could end up on screen, in under 15 lines:
 
 ```
-Here's what your wrap can show. Nothing leaves this machine.
+Here's what your recap can show. Nothing leaves this machine.
 
 • Period: 2026-01-01 → 2026-10-01 · 33 repos · counted as you: a***@zeniosoft.com, a***@gmail.com
 • Headline: 1,625 commits · +200,080 / −40,770 lines · 200 active days · 19-day streak

@@ -1,6 +1,6 @@
 # Step 2: Find the story
 
-A wrap is good when it feels like *this person's* year and not a stats dashboard. The numbers are the skeleton; the story comes from what the commits say.
+A recap is good when it feels like *this person's* year and not a stats dashboard. The numbers are the skeleton; the story comes from what the commits say.
 
 ## 2a. Read the moments
 
@@ -25,7 +25,7 @@ The default arc for vertical, 30–45s. Pick 6–9 chapters; cut the weakest rat
 
 | # | Chapter | Typical length | Data |
 |---|---|---|---|
-| 1 | **Unwrap**: "<Name>'s 2026, in code" | 2.5s | `range`, `--name` |
+| 1 | **Cold open**: "<Name>'s 2026, in code" | 2.5s | `range`, `--name` |
 | 2 | **The big number**: commits, counting up | 3s | `totals.commits` |
 | 3 | **Lines**: added vs deleted, with a beat on net | 3s | `totals.linesAdded/Deleted/netLines` |
 | 4 | **When you code**: heatmap fills in, peak called out | 4s | `time.heatmap`, `peakHour`, `peakWeekday`, `lateNightPct` |
@@ -67,10 +67,10 @@ Each award is a title plus one number and a one-line reason. Make them affection
 
 Pick one persona from [personas.md](personas.md) using its rules. The persona is the climax, so the reveal needs a build-up beat.
 
-## 2e. Write `<out>/wrapped-plan.md`
+## 2e. Write `<out>/shipped-plan.md`
 
 ```markdown
-# Wrapped Plan: <Name>, <range.label>
+# Shipped Plan: <Name>, <range.label>
 
 ## Story in one line
 [e.g. "A Vue-and-TypeScript year that peaked with a 91-commit filter rewrite in March."]
@@ -88,9 +88,9 @@ Pick one persona from [personas.md](personas.md) using its rules. The persona is
 - Texture: [grain / halftone / none]
 
 ## Chapters
-### 1 — Unwrap — 2.5s
+### 1 — Cold open — 2.5s
 On screen: [exact copy]
-Motion idea: [e.g. card "unwraps" (tears/peels) to reveal the year]
+Motion idea: [e.g. the year number stamps in, then the title types out]
 Sequential: [none / what appears one by one]
 Audio: [intent]
 Transition → 2: [hard cut / wipe / match]
