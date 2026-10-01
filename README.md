@@ -42,19 +42,19 @@ A real run on [Lumark](examples/lumark/), a TypeScript + Rust project: 150 commi
 
 <img src="examples/lumark/poster.jpg" align="right" width="230" alt="Summary card: The Steady Shipper, 150 commits, +6,840 lines, 42 active days, 44.1% TypeScript, 10 PM, v0.8.2">
 
-| Time | Chapter | On screen |
-|---|---|---|
-| 0:00 | Unwrap | "2026, in code · Albert's year with #Lumark" |
-| 0:02 | Origin | First commit on Feb 12. *Two days later:* 14 commits on Valentine's Day |
-| 0:05 | Big number | **150** commits, counted up as dots |
-| 0:08 | Lines | **+6,840** added, **−1,385** deleted, net +5,455 |
-| 0:12 | When you code | 7×24 heatmap. Favorite hour **10 PM**, Fridays are the busiest day |
-| 0:16 | Stack | TypeScript 44.1%, Rust 10.6%, CSS 5.9%, JS 4.3%, "plus 2,581 lines of Markdown. Fitting." |
-| 0:20 | The moment | Week of Feb 9: 25 commits, "Lumark is born," quoting *removed tailwind usage…* and *brought tailwind back* |
-| 0:24 | Awards | Weekend Warrior (24.7%) · The File You Couldn't Leave Alone (README.md, 29 commits) · The Big Drop (421 lines into `lib.rs`) |
-| 0:28 | AI pair | "Claude Code on Lumark: 10 prompts. The rest? *Hand-crafted.*" |
-| 0:32 | Persona | **The Steady Shipper**: "No drama. Just a year of good work, shipped. All the way to v0.8.2" |
-| 0:36 | Summary | The share card (right) |
+**Chapter by chapter:**
+
+- `0:00` **Unwrap**: "2026, in code · Albert's year with #Lumark"
+- `0:02` **Origin**: First commit on Feb 12. *Two days later:* 14 commits on Valentine's Day
+- `0:05` **Big number**: **150** commits, counted up as dots
+- `0:08` **Lines**: **+6,840** added, **−1,385** deleted, net +5,455
+- `0:12` **When you code**: 7×24 heatmap. Favorite hour **10 PM**, Fridays are the busiest day
+- `0:16` **Stack**: TypeScript 44.1%, Rust 10.6%, CSS 5.9%, JS 4.3%, "plus 2,581 lines of Markdown. Fitting."
+- `0:20` **The moment**: Week of Feb 9: 25 commits, "Lumark is born," quoting *removed tailwind usage…* and *brought tailwind back*
+- `0:24` **Awards**: Weekend Warrior (24.7%) · The File You Couldn't Leave Alone (README.md, 29 commits) · The Big Drop (421 lines into `lib.rs`)
+- `0:28` **AI pair**: "Claude Code on Lumark: 10 prompts. The rest? *Hand-crafted.*"
+- `0:32` **Persona**: The Steady Shipper, "No drama. Just a year of good work, shipped. All the way to v0.8.2"
+- `0:36` **Summary**: the share card on the right
 
 A few things this run shows:
 
