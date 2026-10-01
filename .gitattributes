@@ -1,0 +1,8 @@
+* text=auto eol=lf
+*.mp4 binary
+*.mp3 binary
+*.ogg binary
+*.wav binary
+*.png binary
+*.jpg binary
+*.gif binary

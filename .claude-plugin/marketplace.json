@@ -1,0 +1,14 @@
+{
+  "name": "wrapped",
+  "description": "Your year in code, wrapped. One command turns your git history into a shareable recap video.",
+  "owner": {
+    "name": "Albert Arakelyan"
+  },
+  "plugins": [
+    {
+      "name": "wrapped",
+      "source": "./",
+      "description": "Turn your git history and AI-coding sessions into a Spotify-Wrapped-style recap video using HyperFrames."
+    }
+  ]
+}

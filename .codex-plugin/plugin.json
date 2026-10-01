@@ -1,0 +1,27 @@
+{
+  "name": "wrapped",
+  "version": "0.1.0",
+  "description": "Your year in code, as a Spotify-Wrapped-style video, rendered locally with HyperFrames.",
+  "author": {
+    "name": "Albert Arakelyan"
+  },
+  "homepage": "https://github.com/OWNER/wrapped",
+  "repository": "https://github.com/OWNER/wrapped",
+  "license": "MIT",
+  "keywords": ["video", "wrapped", "year-in-review", "git", "hyperframes", "skill"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "wrapped",
+    "shortDescription": "Your year in code, as a shareable recap video.",
+    "longDescription": "Reads your local git history and, if you allow it, your AI-coding sessions, finds the story of your year, and renders a vertical Wrapped-style video with music, a share card and share copy. Runs fully locally.",
+    "developerName": "Albert Arakelyan",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write", "Execute"],
+    "websiteURL": "https://github.com/OWNER/wrapped",
+    "defaultPrompt": [
+      "Make my year in code wrapped.",
+      "Wrap up my coding year as a video.",
+      "/wrapped --all --ai"
+    ]
+  }
+}

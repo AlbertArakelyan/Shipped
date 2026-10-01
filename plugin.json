@@ -1,0 +1,13 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "wrapped",
+  "version": "0.1.0",
+  "description": "Your year in code, as a Spotify-Wrapped-style video, rendered locally with HyperFrames.",
+  "author": {
+    "name": "Albert Arakelyan"
+  },
+  "homepage": "https://github.com/OWNER/wrapped",
+  "repository": "https://github.com/OWNER/wrapped",
+  "license": "MIT",
+  "keywords": ["video", "wrapped", "year-in-review", "git", "hyperframes", "skill"]
+}

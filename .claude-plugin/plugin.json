@@ -1,0 +1,12 @@
+{
+  "name": "wrapped",
+  "description": "Your year in code, as a Spotify-Wrapped-style video. Reads your local git history (and, if you allow it, your Claude Code / Codex sessions) and renders a shareable vertical MP4 with HyperFrames.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Albert Arakelyan"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/OWNER/wrapped",
+  "repository": "https://github.com/OWNER/wrapped",
+  "keywords": ["video", "wrapped", "year-in-review", "git", "hyperframes", "skill"]
+}

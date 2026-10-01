@@ -1,0 +1,1617 @@
+{
+  "schemaVersion": 1,
+  "source": "Kenney (kenney.nl), CC0. Analysis by /brag (MIT), filtered to the files bundled with /wrapped.",
+  "fileCount": 38,
+  "files": [
+    {
+      "path": "casino/card-fan-1.ogg",
+      "family": "casino",
+      "filename": "card-fan-1.ogg",
+      "duration": 0.721,
+      "loudness": {
+        "rms": 0.0588,
+        "peak": 0.6258,
+        "crestFactor": 10.649
+      },
+      "transient": {
+        "onsetPeak": 6.713,
+        "sharpness": 6.313,
+        "activeDuration": 0.47,
+        "activeRatio": 0.6523,
+        "envelopeFlatness": 0.2654,
+        "continuousRatio": 0.536
+      },
+      "spectral": {
+        "centroidP50Hz": 4878,
+        "centroidP90Hz": 5364.6,
+        "rolloffP90Hz": 10826.9,
+        "energyRatioLow": 0.1617,
+        "energyRatioMid": 0.2422,
+        "energyRatioHigh": 0.4961,
+        "highActiveDuration": 0.07,
+        "brightBurden": 0.1,
+        "decayTo10Percent": 0.128
+      },
+      "labels": {
+        "brightness": "bright",
+        "highFrequencyRisk": "high",
+        "envelopeShape": "textured",
+        "tags": [
+          "card"
+        ],
+        "suggestedUses": [
+          "card reveal",
+          "sequential item",
+          "swipe"
+        ]
+      }
+    },
+    {
+      "path": "casino/card-place-1.ogg",
+      "family": "casino",
+      "filename": "card-place-1.ogg",
+      "duration": 0.689,
+      "loudness": {
+        "rms": 0.0414,
+        "peak": 0.824,
+        "crestFactor": 19.92
+      },
+      "transient": {
+        "onsetPeak": 8.572,
+        "sharpness": 11.605,
+        "activeDuration": 0.087,
+        "activeRatio": 0.1264,
+        "envelopeFlatness": 0.0068,
+        "continuousRatio": 0.1008
+      },
+      "spectral": {
+        "centroidP50Hz": 4306.8,
+        "centroidP90Hz": 7155.9,
+        "rolloffP90Hz": 12385.9,
+        "energyRatioLow": 0.1254,
+        "energyRatioMid": 0.3139,
+        "energyRatioHigh": 0.4513,
+        "highActiveDuration": 0.023,
+        "brightBurden": 0.028,
+        "decayTo10Percent": 0.046
+      },
+      "labels": {
+        "brightness": "bright",
+        "highFrequencyRisk": "high",
+        "envelopeShape": "transient",
+        "tags": [
+          "card"
+        ],
+        "suggestedUses": [
+          "card reveal",
+          "sequential item",
+          "swipe"
+        ]
+      }
+    },
+    {
+      "path": "casino/card-place-2.ogg",
+      "family": "casino",
+      "filename": "card-place-2.ogg",
+      "duration": 0.459,
+      "loudness": {
+        "rms": 0.0253,
+        "peak": 0.7951,
+        "crestFactor": 31.453
+      },
+      "transient": {
+        "onsetPeak": 12.861,
+        "sharpness": 10.604,
+        "activeDuration": 0.104,
+        "activeRatio": 0.2275,
+        "envelopeFlatness": 0.0408,
+        "continuousRatio": 0.2125
+      },
+      "spectral": {
+        "centroidP50Hz": 4533.7,
+        "centroidP90Hz": 5379.9,
+        "rolloffP90Hz": 9980.6,
+        "energyRatioLow": 0.0488,
+        "energyRatioMid": 0.2793,
+        "energyRatioHigh": 0.5254,
+        "highActiveDuration": 0.041,
+        "brightBurden": 0.0393,
+        "decayTo10Percent": 0.023
+      },
+      "labels": {
+        "brightness": "bright",
+        "highFrequencyRisk": "high",
+        "envelopeShape": "transient",
+        "tags": [
+          "card"
+        ],
+        "suggestedUses": [
+          "card reveal",
+          "sequential item",
+          "swipe"
+        ]
+      }
+    },
+    {
+      "path": "casino/card-slide-1.ogg",
+      "family": "casino",
+      "filename": "card-slide-1.ogg",
+      "duration": 0.601,
+      "loudness": {
+        "rms": 0.0405,
+        "peak": 0.7505,
+        "crestFactor": 18.525
+      },
+      "transient": {
+        "onsetPeak": 11.739,
+        "sharpness": 14.759,
+        "activeDuration": 0.07,
+        "activeRatio": 0.116,
+        "envelopeFlatness": 0.0064,
+        "continuousRatio": 0.0962
+      },
+      "spectral": {
+        "centroidP50Hz": 4167.6,
+        "centroidP90Hz": 6629.1,
+        "rolloffP90Hz": 11953.1,
+        "energyRatioLow": 0.1385,
+        "energyRatioMid": 0.406,
+        "energyRatioHigh": 0.3179,
+        "highActiveDuration": 0.006,
+        "brightBurden": 0.0196,
+        "decayTo10Percent": 0.041
+      },
+      "labels": {
+        "brightness": "balanced",
+        "highFrequencyRisk": "medium",
+        "envelopeShape": "transient",
+        "tags": [
+          "card"
+        ],
+        "suggestedUses": [
+          "card reveal",
+          "sequential item",
+          "swipe"
+        ]
+      }
+    },
+    {
+      "path": "casino/card-slide-2.ogg",
+      "family": "casino",
+      "filename": "card-slide-2.ogg",
+      "duration": 0.584,
+      "loudness": {
+        "rms": 0.0488,
+        "peak": 0.8204,
+        "crestFactor": 16.814
+      },
+      "transient": {
+        "onsetPeak": 9.274,
+        "sharpness": 11.787,
+        "activeDuration": 0.07,
+        "activeRatio": 0.1193,
+        "envelopeFlatness": 0.0139,
+        "continuousRatio": 0.1089
+      },
+      "spectral": {
+        "centroidP50Hz": 4375.1,
+        "centroidP90Hz": 6134.3,
+        "rolloffP90Hz": 11714.1,
+        "energyRatioLow": 0.1762,
+        "energyRatioMid": 0.2482,
+        "energyRatioHigh": 0.4812,
+        "highActiveDuration": 0.017,
+        "brightBurden": 0.0277,
+        "decayTo10Percent": 0.041
+      },
+      "labels": {
+        "brightness": "bright",
+        "highFrequencyRisk": "high",
+        "envelopeShape": "transient",
+        "tags": [
+          "card"
+        ],
+        "suggestedUses": [
+          "card reveal",
+          "sequential item",
+          "swipe"
+        ]
+      }
+    },
+    {
+      "path": "casino/card-slide-3.ogg",
+      "family": "casino",
+      "filename": "card-slide-3.ogg",
+      "duration": 0.598,
+      "loudness": {
+        "rms": 0.044,
+        "peak": 0.8331,
+        "crestFactor": 18.944
+      },
+      "transient": {
+        "onsetPeak": 8.202,
+        "sharpness": 9.587,
+        "activeDuration": 0.07,
+        "activeRatio": 0.1165,
+        "envelopeFlatness": 0.0125,
+        "continuousRatio": 0.1058
+      },
+      "spectral": {
+        "centroidP50Hz": 4414,
+        "centroidP90Hz": 7310.7,
+        "rolloffP90Hz": 12394.5,
+        "energyRatioLow": 0.1315,
+        "energyRatioMid": 0.2819,
+        "energyRatioHigh": 0.4731,
+        "highActiveDuration": 0.012,
+        "brightBurden": 0.0294,
+        "decayTo10Percent": 0.035
+      },
+      "labels": {
+        "brightness": "bright",
+        "highFrequencyRisk": "high",
+        "envelopeShape": "transient",
+        "tags": [
+          "card"
+        ],
+        "suggestedUses": [
+          "card reveal",
+          "sequential item",
+          "swipe"
+        ]
+      }
+    },
+    {
+      "path": "casino/cards-pack-open-1.ogg",
+      "family": "casino",
+      "filename": "cards-pack-open-1.ogg",
+      "duration": 0.937,
+      "loudness": {
+        "rms": 0.0378,
+        "peak": 0.9887,
+        "crestFactor": 26.152
+      },
+      "transient": {
+        "onsetPeak": 4.223,
+        "sharpness": 5.371,
+        "activeDuration": 0.11,
+        "activeRatio": 0.1177,
+        "envelopeFlatness": 0.0437,
+        "continuousRatio": 0.0679
+      },
+      "spectral": {
+        "centroidP50Hz": 5114,
+        "centroidP90Hz": 6003.6,
+        "rolloffP90Hz": 11261.9,
+        "energyRatioLow": 0.0272,
+        "energyRatioMid": 0.202,
+        "energyRatioHigh": 0.4978,
+        "highActiveDuration": 0.052,
+        "brightBurden": 0.0476,
+        "decayTo10Percent": 0.064
+      },
+      "labels": {
+        "brightness": "bright",
+        "highFrequencyRisk": "high",
+        "envelopeShape": "transient",
+        "tags": [
+          "open",
+          "card"
+        ],
+        "suggestedUses": [
+          "card reveal",
+          "panel opening",
+          "sequential item",
+          "soft reveal",
+          "swipe"
+        ]
+      }
+    },
+    {
+      "path": "casino/chips-collide-1.ogg",
+      "family": "casino",
+      "filename": "chips-collide-1.ogg",
+      "duration": 0.259,
+      "loudness": {
+        "rms": 0.0349,
+        "peak": 0.793,
+        "crestFactor": 22.731
+      },
+      "transient": {
+        "onsetPeak": 16.701,
+        "sharpness": 13.897,
+        "activeDuration": 0.064,
+        "activeRatio": 0.2468,
+        "envelopeFlatness": 0.0159,
+        "continuousRatio": 0.2
+      },
+      "spectral": {
+        "centroidP50Hz": 5331.7,
+        "centroidP90Hz": 6687.1,
+        "rolloffP90Hz": 10409.2,
+        "energyRatioLow": 0.026,
+        "energyRatioMid": 0.06,
+        "energyRatioHigh": 0.8231,
+        "highActiveDuration": 0.064,
+        "brightBurden": 0.0435,
+        "decayTo10Percent": 0.029
+      },
+      "labels": {
+        "brightness": "bright",
+        "highFrequencyRisk": "high",
+        "envelopeShape": "transient",
+        "tags": [
+          "chip"
+        ],
+        "suggestedUses": [
+          "general accent"
+        ]
+      }
+    },
+    {
+      "path": "casino/chips-collide-2.ogg",
+      "family": "casino",
+      "filename": "chips-collide-2.ogg",
+      "duration": 0.23,
+      "loudness": {
+        "rms": 0.0325,
+        "peak": 0.8214,
+        "crestFactor": 25.249
+      },
+      "transient": {
+        "onsetPeak": 18.376,
+        "sharpness": 14.646,
+        "activeDuration": 0.081,
+        "activeRatio": 0.3534,
+        "envelopeFlatness": 0.038,
+        "continuousRatio": 0.275
+      },
+      "spectral": {
+        "centroidP50Hz": 5519.3,
+        "centroidP90Hz": 6711.1,
+        "rolloffP90Hz": 10770.9,
+        "energyRatioLow": 0.0211,
+        "energyRatioMid": 0.0445,
+        "energyRatioHigh": 0.8341,
+        "highActiveDuration": 0.081,
+        "brightBurden": 0.048,
+        "decayTo10Percent": 0.041
+      },
+      "labels": {
+        "brightness": "bright",
+        "highFrequencyRisk": "high",
+        "envelopeShape": "transient",
+        "tags": [
+          "chip"
+        ],
+        "suggestedUses": [
+          "tiny accent only"
+        ]
+      }
+    },
+    {
+      "path": "casino/chips-stack-1.ogg",
+      "family": "casino",
+      "filename": "chips-stack-1.ogg",
+      "duration": 0.287,
+      "loudness": {
+        "rms": 0.0375,
+        "peak": 0.8059,
+        "crestFactor": 21.482
+      },
+      "transient": {
+        "onsetPeak": 14.498,
+        "sharpness": 12.506,
+        "activeDuration": 0.064,
+        "activeRatio": 0.2221,
+        "envelopeFlatness": 0.0121,
+        "continuousRatio": 0.2
+      },
+      "spectral": {
+        "centroidP50Hz": 5320.7,
+        "centroidP90Hz": 6943,
+        "rolloffP90Hz": 10553.4,
+        "energyRatioLow": 0.0086,
+        "energyRatioMid": 0.0501,
+        "energyRatioHigh": 0.8758,
+        "highActiveDuration": 0.064,
+        "brightBurden": 0.0474,
+        "decayTo10Percent": 0.029
+      },
+      "labels": {
+        "brightness": "bright",
+        "highFrequencyRisk": "high",
+        "envelopeShape": "transient",
+        "tags": [
+          "chip"
+        ],
+        "suggestedUses": [
+          "general accent"
+        ]
+      }
+    },
+    {
+      "path": "casino/chips-stack-2.ogg",
+      "family": "casino",
+      "filename": "chips-stack-2.ogg",
+      "duration": 0.172,
+      "loudness": {
+        "rms": 0.0351,
+        "peak": 0.9249,
+        "crestFactor": 26.369
+      },
+      "transient": {
+        "onsetPeak": 7.566,
+        "sharpness": 12.515,
+        "activeDuration": 0.058,
+        "activeRatio": 0.3365,
+        "envelopeFlatness": 0.0747,
+        "continuousRatio": 0.2333
+      },
+      "spectral": {
+        "centroidP50Hz": 6552.6,
+        "centroidP90Hz": 7605.3,
+        "rolloffP90Hz": 11507.3,
+        "energyRatioLow": 0.0101,
+        "energyRatioMid": 0.0403,
+        "energyRatioHigh": 0.8728,
+        "highActiveDuration": 0.058,
+        "brightBurden": 0.0417,
+        "decayTo10Percent": 0.029
+      },
+      "labels": {
+        "brightness": "bright",
+        "highFrequencyRisk": "medium",
+        "envelopeShape": "transient",
+        "tags": [
+          "chip"
+        ],
+        "suggestedUses": [
+          "tiny accent only"
+        ]
+      }
+    },
+    {
+      "path": "casino/chips-stack-3.ogg",
+      "family": "casino",
+      "filename": "chips-stack-3.ogg",
+      "duration": 0.374,
+      "loudness": {
+        "rms": 0.0333,
+        "peak": 0.8728,
+        "crestFactor": 26.183
+      },
+      "transient": {
+        "onsetPeak": 17.814,
+        "sharpness": 16.471,
+        "activeDuration": 0.087,
+        "activeRatio": 0.233,
+        "envelopeFlatness": 0.054,
+        "continuousRatio": 0.1538
+      },
+      "spectral": {
+        "centroidP50Hz": 5277.8,
+        "centroidP90Hz": 6571.3,
+        "rolloffP90Hz": 10607.3,
+        "energyRatioLow": 0.0335,
+        "energyRatioMid": 0.096,
+        "energyRatioHigh": 0.7827,
+        "highActiveDuration": 0.081,
+        "brightBurden": 0.0522,
+        "decayTo10Percent": 0.058
+      },
+      "labels": {
+        "brightness": "bright",
+        "highFrequencyRisk": "high",
+        "envelopeShape": "transient",
+        "tags": [
+          "chip"
+        ],
+        "suggestedUses": [
+          "general accent"
+        ]
+      }
+    },
+    {
+      "path": "impact/impactBell_heavy_000.ogg",
+      "family": "impact",
+      "filename": "impactBell_heavy_000.ogg",
+      "duration": 1.48,
+      "loudness": {
+        "rms": 0.0486,
+        "peak": 0.8773,
+        "crestFactor": 18.043
+      },
+      "transient": {
+        "onsetPeak": 0.823,
+        "sharpness": 6.836,
+        "activeDuration": 0.61,
+        "activeRatio": 0.4118,
+        "envelopeFlatness": 0.0938,
+        "continuousRatio": 0.2118
+      },
+      "spectral": {
+        "centroidP50Hz": 556.7,
+        "centroidP90Hz": 584.1,
+        "rolloffP90Hz": 766.6,
+        "energyRatioLow": 0.0346,
+        "energyRatioMid": 0.9308,
+        "energyRatioHigh": 0.0066,
+        "highActiveDuration": 0,
+        "brightBurden": 0.0008,
+        "decayTo10Percent": 0.679
+      },
+      "labels": {
+        "brightness": "warm",
+        "highFrequencyRisk": "medium",
+        "envelopeShape": "transient",
+        "tags": [
+          "impact",
+          "bell"
+        ],
+        "suggestedUses": [
+          "hard transition",
+          "logo payoff",
+          "major reveal",
+          "reveal confirmation",
+          "success"
+        ]
+      }
+    },
+    {
+      "path": "impact/impactBell_heavy_003.ogg",
+      "family": "impact",
+      "filename": "impactBell_heavy_003.ogg",
+      "duration": 0.654,
+      "loudness": {
+        "rms": 0.0591,
+        "peak": 0.89,
+        "crestFactor": 15.057
+      },
+      "transient": {
+        "onsetPeak": 0.296,
+        "sharpness": 3.668,
+        "activeDuration": 0.186,
+        "activeRatio": 0.2842,
+        "envelopeFlatness": 0.0326,
+        "continuousRatio": 0.1681
+      },
+      "spectral": {
+        "centroidP50Hz": 633.6,
+        "centroidP90Hz": 717.3,
+        "rolloffP90Hz": 1205.9,
+        "energyRatioLow": 0.0801,
+        "energyRatioMid": 0.84,
+        "energyRatioHigh": 0.0186,
+        "highActiveDuration": 0,
+        "brightBurden": 0.001,
+        "decayTo10Percent": 0.18
+      },
+      "labels": {
+        "brightness": "warm",
+        "highFrequencyRisk": "medium",
+        "envelopeShape": "transient",
+        "tags": [
+          "impact",
+          "bell"
+        ],
+        "suggestedUses": [
+          "hard transition",
+          "logo payoff",
+          "major reveal",
+          "reveal confirmation",
+          "success"
+        ]
+      }
+    },
+    {
+      "path": "impact/impactBell_heavy_004.ogg",
+      "family": "impact",
+      "filename": "impactBell_heavy_004.ogg",
+      "duration": 0.301,
+      "loudness": {
+        "rms": 0.0768,
+        "peak": 0.8774,
+        "crestFactor": 11.421
+      },
+      "transient": {
+        "onsetPeak": 0.245,
+        "sharpness": 11.764,
+        "activeDuration": 0.064,
+        "activeRatio": 0.2118,
+        "envelopeFlatness": 0.0202,
+        "continuousRatio": 0.1538
+      },
+      "spectral": {
+        "centroidP50Hz": 155.2,
+        "centroidP90Hz": 537.2,
+        "rolloffP90Hz": 471.6,
+        "energyRatioLow": 0.3625,
+        "energyRatioMid": 0.5219,
+        "energyRatioHigh": 0.0188,
+        "highActiveDuration": 0,
+        "brightBurden": 0.0006,
+        "decayTo10Percent": 0.046
+      },
+      "labels": {
+        "brightness": "warm",
+        "highFrequencyRisk": "medium",
+        "envelopeShape": "transient",
+        "tags": [
+          "impact",
+          "bell"
+        ],
+        "suggestedUses": [
+          "hard transition",
+          "logo payoff",
+          "major reveal",
+          "reveal confirmation",
+          "success"
+        ]
+      }
+    },
+    {
+      "path": "impact/impactGlass_light_001.ogg",
+      "family": "impact",
+      "filename": "impactGlass_light_001.ogg",
+      "duration": 0.21,
+      "loudness": {
+        "rms": 0.0855,
+        "peak": 0.9017,
+        "crestFactor": 10.541
+      },
+      "transient": {
+        "onsetPeak": 0.1,
+        "sharpness": 20.142,
+        "activeDuration": 0.075,
+        "activeRatio": 0.3601,
+        "envelopeFlatness": 0.0323,
+        "continuousRatio": 0.2703
+      },
+      "spectral": {
+        "centroidP50Hz": 1684.5,
+        "centroidP90Hz": 2062.9,
+        "rolloffP90Hz": 2523.7,
+        "energyRatioLow": 0.0414,
+        "energyRatioMid": 0.8095,
+        "energyRatioHigh": 0.0405,
+        "highActiveDuration": 0,
+        "brightBurden": 0.0012,
+        "decayTo10Percent": 0.058
+      },
+      "labels": {
+        "brightness": "warm",
+        "highFrequencyRisk": "medium",
+        "envelopeShape": "transient",
+        "tags": [
+          "impact",
+          "glass"
+        ],
+        "suggestedUses": [
+          "hard transition",
+          "major reveal"
+        ]
+      }
+    },
+    {
+      "path": "impact/impactGlass_light_002.ogg",
+      "family": "impact",
+      "filename": "impactGlass_light_002.ogg",
+      "duration": 0.21,
+      "loudness": {
+        "rms": 0.1001,
+        "peak": 0.8727,
+        "crestFactor": 8.715
+      },
+      "transient": {
+        "onsetPeak": 0.273,
+        "sharpness": 26.059,
+        "activeDuration": 0.075,
+        "activeRatio": 0.3601,
+        "envelopeFlatness": 0.0343,
+        "continuousRatio": 0.2703
+      },
+      "spectral": {
+        "centroidP50Hz": 1533.3,
+        "centroidP90Hz": 2406.8,
+        "rolloffP90Hz": 4087,
+        "energyRatioLow": 0.0329,
+        "energyRatioMid": 0.7674,
+        "energyRatioHigh": 0.1178,
+        "highActiveDuration": 0,
+        "brightBurden": 0.0039,
+        "decayTo10Percent": 0.058
+      },
+      "labels": {
+        "brightness": "warm",
+        "highFrequencyRisk": "medium",
+        "envelopeShape": "transient",
+        "tags": [
+          "impact",
+          "glass"
+        ],
+        "suggestedUses": [
+          "hard transition",
+          "major reveal"
+        ]
+      }
+    },
+    {
+      "path": "impact/impactGlass_light_003.ogg",
+      "family": "impact",
+      "filename": "impactGlass_light_003.ogg",
+      "duration": 0.21,
+      "loudness": {
+        "rms": 0.0884,
+        "peak": 0.8828,
+        "crestFactor": 9.991
+      },
+      "transient": {
+        "onsetPeak": 0.115,
+        "sharpness": 13.762,
+        "activeDuration": 0.075,
+        "activeRatio": 0.3601,
+        "envelopeFlatness": 0.0338,
+        "continuousRatio": 0.2703
+      },
+      "spectral": {
+        "centroidP50Hz": 1481.3,
+        "centroidP90Hz": 1966.4,
+        "rolloffP90Hz": 2217.9,
+        "energyRatioLow": 0.0424,
+        "energyRatioMid": 0.8491,
+        "energyRatioHigh": 0.0502,
+        "highActiveDuration": 0,
+        "brightBurden": 0.0016,
+        "decayTo10Percent": 0.058
+      },
+      "labels": {
+        "brightness": "warm",
+        "highFrequencyRisk": "medium",
+        "envelopeShape": "transient",
+        "tags": [
+          "impact",
+          "glass"
+        ],
+        "suggestedUses": [
+          "hard transition",
+          "major reveal"
+        ]
+      }
+    },
+    {
+      "path": "impact/impactPunch_heavy_002.ogg",
+      "family": "impact",
+      "filename": "impactPunch_heavy_002.ogg",
+      "duration": 0.457,
+      "loudness": {
+        "rms": 0.148,
+        "peak": 0.8942,
+        "crestFactor": 6.041
+      },
+      "transient": {
+        "onsetPeak": 4.809,
+        "sharpness": 25.677,
+        "activeDuration": 0.163,
+        "activeRatio": 0.3553,
+        "envelopeFlatness": 0.0422,
+        "continuousRatio": 0.2532
+      },
+      "spectral": {
+        "centroidP50Hz": 222.2,
+        "centroidP90Hz": 371.1,
+        "rolloffP90Hz": 366.1,
+        "energyRatioLow": 0.6131,
+        "energyRatioMid": 0.2787,
+        "energyRatioHigh": 0.0083,
+        "highActiveDuration": 0,
+        "brightBurden": 0.0008,
+        "decayTo10Percent": 0.134
+      },
+      "labels": {
+        "brightness": "warm",
+        "highFrequencyRisk": "medium",
+        "envelopeShape": "transient",
+        "tags": [
+          "impact"
+        ],
+        "suggestedUses": [
+          "hard transition",
+          "major reveal"
+        ]
+      }
+    },
+    {
+      "path": "impact/impactPunch_medium_001.ogg",
+      "family": "impact",
+      "filename": "impactPunch_medium_001.ogg",
+      "duration": 0.405,
+      "loudness": {
+        "rms": 0.143,
+        "peak": 0.8773,
+        "crestFactor": 6.137
+      },
+      "transient": {
+        "onsetPeak": 8.03,
+        "sharpness": 20.459,
+        "activeDuration": 0.134,
+        "activeRatio": 0.33,
+        "envelopeFlatness": 0.0203,
+        "continuousRatio": 0.2714
+      },
+      "spectral": {
+        "centroidP50Hz": 615.5,
+        "centroidP90Hz": 981.6,
+        "rolloffP90Hz": 889.3,
+        "energyRatioLow": 0.3042,
+        "energyRatioMid": 0.4646,
+        "energyRatioHigh": 0.0287,
+        "highActiveDuration": 0,
+        "brightBurden": 0.0024,
+        "decayTo10Percent": 0.099
+      },
+      "labels": {
+        "brightness": "warm",
+        "highFrequencyRisk": "medium",
+        "envelopeShape": "transient",
+        "tags": [
+          "impact"
+        ],
+        "suggestedUses": [
+          "hard transition",
+          "major reveal"
+        ]
+      }
+    },
+    {
+      "path": "impact/impactSoft_heavy_001.ogg",
+      "family": "impact",
+      "filename": "impactSoft_heavy_001.ogg",
+      "duration": 0.572,
+      "loudness": {
+        "rms": 0.1341,
+        "peak": 0.8944,
+        "crestFactor": 6.672
+      },
+      "transient": {
+        "onsetPeak": 0.098,
+        "sharpness": 7.836,
+        "activeDuration": 0.168,
+        "activeRatio": 0.2943,
+        "envelopeFlatness": 0.0365,
+        "continuousRatio": 0.202
+      },
+      "spectral": {
+        "centroidP50Hz": 71.2,
+        "centroidP90Hz": 94,
+        "rolloffP90Hz": 107.7,
+        "energyRatioLow": 0.8203,
+        "energyRatioMid": 0.037,
+        "energyRatioHigh": 0.0018,
+        "highActiveDuration": 0,
+        "brightBurden": 0.0001,
+        "decayTo10Percent": 0.174
+      },
+      "labels": {
+        "brightness": "warm",
+        "highFrequencyRisk": "medium",
+        "envelopeShape": "transient",
+        "tags": [
+          "impact"
+        ],
+        "suggestedUses": [
+          "hard transition",
+          "major reveal"
+        ]
+      }
+    },
+    {
+      "path": "impact/impactSoft_heavy_003.ogg",
+      "family": "impact",
+      "filename": "impactSoft_heavy_003.ogg",
+      "duration": 0.544,
+      "loudness": {
+        "rms": 0.1483,
+        "peak": 0.8902,
+        "crestFactor": 6.005
+      },
+      "transient": {
+        "onsetPeak": 0.075,
+        "sharpness": 7.441,
+        "activeDuration": 0.174,
+        "activeRatio": 0.32,
+        "envelopeFlatness": 0.0389,
+        "continuousRatio": 0.2021
+      },
+      "spectral": {
+        "centroidP50Hz": 58.5,
+        "centroidP90Hz": 72.4,
+        "rolloffP90Hz": 86.1,
+        "energyRatioLow": 0.8,
+        "energyRatioMid": 0.0266,
+        "energyRatioHigh": 0.0015,
+        "highActiveDuration": 0,
+        "brightBurden": 0.0001,
+        "decayTo10Percent": 0.163
+      },
+      "labels": {
+        "brightness": "warm",
+        "highFrequencyRisk": "medium",
+        "envelopeShape": "transient",
+        "tags": [
+          "impact"
+        ],
+        "suggestedUses": [
+          "hard transition",
+          "major reveal"
+        ]
+      }
+    },
+    {
+      "path": "impact/impactSoft_medium_000.ogg",
+      "family": "impact",
+      "filename": "impactSoft_medium_000.ogg",
+      "duration": 0.118,
+      "loudness": {
+        "rms": 0.192,
+        "peak": 0.8952,
+        "crestFactor": 4.663
+      },
+      "transient": {
+        "onsetPeak": 0.142,
+        "sharpness": 11.419,
+        "activeDuration": 0.058,
+        "activeRatio": 0.4919,
+        "envelopeFlatness": 0.1051,
+        "continuousRatio": 0.4286
+      },
+      "spectral": {
+        "centroidP50Hz": 109.6,
+        "centroidP90Hz": 1302.6,
+        "rolloffP90Hz": 1442.7,
+        "energyRatioLow": 0.7306,
+        "energyRatioMid": 0.0799,
+        "energyRatioHigh": 0.0056,
+        "highActiveDuration": 0,
+        "brightBurden": 0.0002,
+        "decayTo10Percent": 0.041
+      },
+      "labels": {
+        "brightness": "warm",
+        "highFrequencyRisk": "low",
+        "envelopeShape": "textured",
+        "tags": [
+          "impact"
+        ],
+        "suggestedUses": [
+          "hard transition",
+          "major reveal"
+        ]
+      }
+    },
+    {
+      "path": "impact/impactSoft_medium_001.ogg",
+      "family": "impact",
+      "filename": "impactSoft_medium_001.ogg",
+      "duration": 0.183,
+      "loudness": {
+        "rms": 0.1795,
+        "peak": 0.8987,
+        "crestFactor": 5.006
+      },
+      "transient": {
+        "onsetPeak": 0.091,
+        "sharpness": 8.436,
+        "activeDuration": 0.07,
+        "activeRatio": 0.3801,
+        "envelopeFlatness": 0.0922,
+        "continuousRatio": 0.2812
+      },
+      "spectral": {
+        "centroidP50Hz": 81,
+        "centroidP90Hz": 144.2,
+        "rolloffP90Hz": 150.7,
+        "energyRatioLow": 0.7699,
+        "energyRatioMid": 0.0461,
+        "energyRatioHigh": 0.0028,
+        "highActiveDuration": 0,
+        "brightBurden": 0.0001,
+        "decayTo10Percent": 0.07
+      },
+      "labels": {
+        "brightness": "warm",
+        "highFrequencyRisk": "low",
+        "envelopeShape": "transient",
+        "tags": [
+          "impact"
+        ],
+        "suggestedUses": [
+          "hard transition",
+          "major reveal"
+        ]
+      }
+    },
+    {
+      "path": "impact/impactSoft_medium_002.ogg",
+      "family": "impact",
+      "filename": "impactSoft_medium_002.ogg",
+      "duration": 0.135,
+      "loudness": {
+        "rms": 0.1948,
+        "peak": 0.8919,
+        "crestFactor": 4.578
+      },
+      "transient": {
+        "onsetPeak": 0.088,
+        "sharpness": 8.578,
+        "activeDuration": 0.058,
+        "activeRatio": 0.4294,
+        "envelopeFlatness": 0.0959,
+        "continuousRatio": 0.375
+      },
+      "spectral": {
+        "centroidP50Hz": 81.3,
+        "centroidP90Hz": 1034,
+        "rolloffP90Hz": 1115.4,
+        "energyRatioLow": 0.739,
+        "energyRatioMid": 0.0531,
+        "energyRatioHigh": 0.0045,
+        "highActiveDuration": 0,
+        "brightBurden": 0.0001,
+        "decayTo10Percent": 0.046
+      },
+      "labels": {
+        "brightness": "warm",
+        "highFrequencyRisk": "low",
+        "envelopeShape": "transient",
+        "tags": [
+          "impact"
+        ],
+        "suggestedUses": [
+          "hard transition",
+          "major reveal"
+        ]
+      }
+    },
+    {
+      "path": "impact/impactSoft_medium_003.ogg",
+      "family": "impact",
+      "filename": "impactSoft_medium_003.ogg",
+      "duration": 0.14,
+      "loudness": {
+        "rms": 0.1921,
+        "peak": 0.8969,
+        "crestFactor": 4.669
+      },
+      "transient": {
+        "onsetPeak": 0.102,
+        "sharpness": 9.804,
+        "activeDuration": 0.064,
+        "activeRatio": 0.4554,
+        "envelopeFlatness": 0.0813,
+        "continuousRatio": 0.32
+      },
+      "spectral": {
+        "centroidP50Hz": 90.5,
+        "centroidP90Hz": 1068,
+        "rolloffP90Hz": 1248.9,
+        "energyRatioLow": 0.7472,
+        "energyRatioMid": 0.0552,
+        "energyRatioHigh": 0.005,
+        "highActiveDuration": 0,
+        "brightBurden": 0.0002,
+        "decayTo10Percent": 0.046
+      },
+      "labels": {
+        "brightness": "warm",
+        "highFrequencyRisk": "low",
+        "envelopeShape": "textured",
+        "tags": [
+          "impact"
+        ],
+        "suggestedUses": [
+          "hard transition",
+          "major reveal"
+        ]
+      }
+    },
+    {
+      "path": "impact/impactSoft_medium_004.ogg",
+      "family": "impact",
+      "filename": "impactSoft_medium_004.ogg",
+      "duration": 0.147,
+      "loudness": {
+        "rms": 0.188,
+        "peak": 0.895,
+        "crestFactor": 4.76
+      },
+      "transient": {
+        "onsetPeak": 0.108,
+        "sharpness": 6.544,
+        "activeDuration": 0.064,
+        "activeRatio": 0.434,
+        "envelopeFlatness": 0.0991,
+        "continuousRatio": 0.3077
+      },
+      "spectral": {
+        "centroidP50Hz": 92,
+        "centroidP90Hz": 812.9,
+        "rolloffP90Hz": 818.3,
+        "energyRatioLow": 0.7598,
+        "energyRatioMid": 0.0557,
+        "energyRatioHigh": 0.0038,
+        "highActiveDuration": 0,
+        "brightBurden": 0.0001,
+        "decayTo10Percent": 0.052
+      },
+      "labels": {
+        "brightness": "warm",
+        "highFrequencyRisk": "low",
+        "envelopeShape": "transient",
+        "tags": [
+          "impact"
+        ],
+        "suggestedUses": [
+          "hard transition",
+          "major reveal"
+        ]
+      }
+    },
+    {
+      "path": "interface/bong_001.ogg",
+      "family": "interface",
+      "filename": "bong_001.ogg",
+      "duration": 0.123,
+      "loudness": {
+        "rms": 0.153,
+        "peak": 0.9025,
+        "crestFactor": 5.898
+      },
+      "transient": {
+        "onsetPeak": 0.043,
+        "sharpness": 5.52,
+        "activeDuration": 0.058,
+        "activeRatio": 0.4726,
+        "envelopeFlatness": 0.0705,
+        "continuousRatio": 0.3636
+      },
+      "spectral": {
+        "centroidP50Hz": 202.8,
+        "centroidP90Hz": 1359.9,
+        "rolloffP90Hz": 1774.3,
+        "energyRatioLow": 0.6374,
+        "energyRatioMid": 0.2403,
+        "energyRatioHigh": 0.0047,
+        "highActiveDuration": 0,
+        "brightBurden": 0.0001,
+        "decayTo10Percent": 0.035
+      },
+      "labels": {
+        "brightness": "warm",
+        "highFrequencyRisk": "low",
+        "envelopeShape": "textured",
+        "tags": [],
+        "suggestedUses": [
+          "general accent"
+        ]
+      }
+    },
+    {
+      "path": "interface/click_002.ogg",
+      "family": "interface",
+      "filename": "click_002.ogg",
+      "duration": 0.01,
+      "loudness": {
+        "rms": 0.1674,
+        "peak": 0.9066,
+        "crestFactor": 5.415
+      },
+      "transient": {
+        "onsetPeak": 0.038,
+        "sharpness": 9,
+        "activeDuration": 0.029,
+        "activeRatio": 2.8959,
+        "envelopeFlatness": 1,
+        "continuousRatio": 0.5556
+      },
+      "spectral": {
+        "centroidP50Hz": 2610.9,
+        "centroidP90Hz": 2987.9,
+        "rolloffP90Hz": 6976.8,
+        "energyRatioLow": 0.0597,
+        "energyRatioMid": 0.598,
+        "energyRatioHigh": 0.1153,
+        "highActiveDuration": 0,
+        "brightBurden": 0.0007,
+        "decayTo10Percent": 0.035
+      },
+      "labels": {
+        "brightness": "balanced",
+        "highFrequencyRisk": "low",
+        "envelopeShape": "continuous",
+        "tags": [
+          "click"
+        ],
+        "suggestedUses": [
+          "button press",
+          "selection",
+          "simulated user action"
+        ]
+      }
+    },
+    {
+      "path": "interface/click_003.ogg",
+      "family": "interface",
+      "filename": "click_003.ogg",
+      "duration": 0.01,
+      "loudness": {
+        "rms": 0.158,
+        "peak": 0.8549,
+        "crestFactor": 5.41
+      },
+      "transient": {
+        "onsetPeak": 0.001,
+        "sharpness": 9,
+        "activeDuration": 0.029,
+        "activeRatio": 2.8959,
+        "envelopeFlatness": 1,
+        "continuousRatio": 0.5556
+      },
+      "spectral": {
+        "centroidP50Hz": 2781.5,
+        "centroidP90Hz": 3321,
+        "rolloffP90Hz": 7691.7,
+        "energyRatioLow": 0.0724,
+        "energyRatioMid": 0.5408,
+        "energyRatioHigh": 0.1152,
+        "highActiveDuration": 0,
+        "brightBurden": 0.0007,
+        "decayTo10Percent": 0.035
+      },
+      "labels": {
+        "brightness": "balanced",
+        "highFrequencyRisk": "low",
+        "envelopeShape": "continuous",
+        "tags": [
+          "click"
+        ],
+        "suggestedUses": [
+          "button press",
+          "selection",
+          "simulated user action"
+        ]
+      }
+    },
+    {
+      "path": "interface/click_005.ogg",
+      "family": "interface",
+      "filename": "click_005.ogg",
+      "duration": 0.01,
+      "loudness": {
+        "rms": 0.225,
+        "peak": 0.8693,
+        "crestFactor": 3.864
+      },
+      "transient": {
+        "onsetPeak": 0.1,
+        "sharpness": 9,
+        "activeDuration": 0.035,
+        "activeRatio": 3.4751,
+        "envelopeFlatness": 1,
+        "continuousRatio": 0.5556
+      },
+      "spectral": {
+        "centroidP50Hz": 3266.5,
+        "centroidP90Hz": 3646.3,
+        "rolloffP90Hz": 9388.5,
+        "energyRatioLow": 0.2036,
+        "energyRatioMid": 0.4939,
+        "energyRatioHigh": 0.1803,
+        "highActiveDuration": 0,
+        "brightBurden": 0.0011,
+        "decayTo10Percent": 0.035
+      },
+      "labels": {
+        "brightness": "balanced",
+        "highFrequencyRisk": "low",
+        "envelopeShape": "continuous",
+        "tags": [
+          "click"
+        ],
+        "suggestedUses": [
+          "button press",
+          "selection",
+          "simulated user action"
+        ]
+      }
+    },
+    {
+      "path": "interface/drop_001.ogg",
+      "family": "interface",
+      "filename": "drop_001.ogg",
+      "duration": 0.11,
+      "loudness": {
+        "rms": 0.0958,
+        "peak": 0.9026,
+        "crestFactor": 9.426
+      },
+      "transient": {
+        "onsetPeak": 1.05,
+        "sharpness": 3.029,
+        "activeDuration": 0.046,
+        "activeRatio": 0.4229,
+        "envelopeFlatness": 0.0597,
+        "continuousRatio": 0.3158
+      },
+      "spectral": {
+        "centroidP50Hz": 3281.7,
+        "centroidP90Hz": 5297,
+        "rolloffP90Hz": 9543.5,
+        "energyRatioLow": 0.0407,
+        "energyRatioMid": 0.6133,
+        "energyRatioHigh": 0.1266,
+        "highActiveDuration": 0.012,
+        "brightBurden": 0.007,
+        "decayTo10Percent": 0.029
+      },
+      "labels": {
+        "brightness": "balanced",
+        "highFrequencyRisk": "medium",
+        "envelopeShape": "transient",
+        "tags": [],
+        "suggestedUses": [
+          "general accent"
+        ]
+      }
+    },
+    {
+      "path": "interface/drop_002.ogg",
+      "family": "interface",
+      "filename": "drop_002.ogg",
+      "duration": 0.191,
+      "loudness": {
+        "rms": 0.102,
+        "peak": 0.8854,
+        "crestFactor": 8.678
+      },
+      "transient": {
+        "onsetPeak": 0.162,
+        "sharpness": 2.552,
+        "activeDuration": 0.058,
+        "activeRatio": 0.3038,
+        "envelopeFlatness": 0.0222,
+        "continuousRatio": 0.2424
+      },
+      "spectral": {
+        "centroidP50Hz": 773.4,
+        "centroidP90Hz": 845.7,
+        "rolloffP90Hz": 1093.9,
+        "energyRatioLow": 0.0897,
+        "energyRatioMid": 0.8328,
+        "energyRatioHigh": 0.0113,
+        "highActiveDuration": 0,
+        "brightBurden": 0.0004,
+        "decayTo10Percent": 0.041
+      },
+      "labels": {
+        "brightness": "warm",
+        "highFrequencyRisk": "medium",
+        "envelopeShape": "transient",
+        "tags": [],
+        "suggestedUses": [
+          "general accent"
+        ]
+      }
+    },
+    {
+      "path": "interface/drop_003.ogg",
+      "family": "interface",
+      "filename": "drop_003.ogg",
+      "duration": 0.191,
+      "loudness": {
+        "rms": 0.1039,
+        "peak": 0.8798,
+        "crestFactor": 8.468
+      },
+      "transient": {
+        "onsetPeak": 0.026,
+        "sharpness": 10.829,
+        "activeDuration": 0.064,
+        "activeRatio": 0.3342,
+        "envelopeFlatness": 0.0231,
+        "continuousRatio": 0.2424
+      },
+      "spectral": {
+        "centroidP50Hz": 636,
+        "centroidP90Hz": 840.9,
+        "rolloffP90Hz": 852.7,
+        "energyRatioLow": 0.0954,
+        "energyRatioMid": 0.8179,
+        "energyRatioHigh": 0.0144,
+        "highActiveDuration": 0,
+        "brightBurden": 0.0004,
+        "decayTo10Percent": 0.041
+      },
+      "labels": {
+        "brightness": "warm",
+        "highFrequencyRisk": "medium",
+        "envelopeShape": "transient",
+        "tags": [],
+        "suggestedUses": [
+          "general accent"
+        ]
+      }
+    },
+    {
+      "path": "interface/error_005.ogg",
+      "family": "interface",
+      "filename": "error_005.ogg",
+      "duration": 0.5,
+      "loudness": {
+        "rms": 0.1156,
+        "peak": 0.8955,
+        "crestFactor": 7.744
+      },
+      "transient": {
+        "onsetPeak": 14.142,
+        "sharpness": 27.253,
+        "activeDuration": 0.139,
+        "activeRatio": 0.2786,
+        "envelopeFlatness": 0.0005,
+        "continuousRatio": 0.2299
+      },
+      "spectral": {
+        "centroidP50Hz": 666.3,
+        "centroidP90Hz": 2112.4,
+        "rolloffP90Hz": 4582.3,
+        "energyRatioLow": 0.5272,
+        "energyRatioMid": 0.2912,
+        "energyRatioHigh": 0.0812,
+        "highActiveDuration": 0,
+        "brightBurden": 0.0072,
+        "decayTo10Percent": 0.087
+      },
+      "labels": {
+        "brightness": "warm",
+        "highFrequencyRisk": "medium",
+        "envelopeShape": "transient",
+        "tags": [
+          "error"
+        ],
+        "suggestedUses": [
+          "chaotic accent",
+          "comedic interruption"
+        ]
+      }
+    },
+    {
+      "path": "interface/glitch_002.ogg",
+      "family": "interface",
+      "filename": "glitch_002.ogg",
+      "duration": 0.03,
+      "loudness": {
+        "rms": 0.2,
+        "peak": 0.875,
+        "crestFactor": 4.375
+      },
+      "transient": {
+        "onsetPeak": 0.172,
+        "sharpness": 5.201,
+        "activeDuration": 0.052,
+        "activeRatio": 1.7402,
+        "envelopeFlatness": 0.9645,
+        "continuousRatio": 1
+      },
+      "spectral": {
+        "centroidP50Hz": 3580.3,
+        "centroidP90Hz": 5384.1,
+        "rolloffP90Hz": 10512.5,
+        "energyRatioLow": 0.1241,
+        "energyRatioMid": 0.1827,
+        "energyRatioHigh": 0.473,
+        "highActiveDuration": 0,
+        "brightBurden": 0.0086,
+        "decayTo10Percent": 0.03
+      },
+      "labels": {
+        "brightness": "bright",
+        "highFrequencyRisk": "low",
+        "envelopeShape": "continuous",
+        "tags": [
+          "glitch"
+        ],
+        "suggestedUses": [
+          "chaotic accent",
+          "comedic interruption",
+          "tiny accent only"
+        ]
+      }
+    },
+    {
+      "path": "interface/select_008.ogg",
+      "family": "interface",
+      "filename": "select_008.ogg",
+      "duration": 0.047,
+      "loudness": {
+        "rms": 0.1104,
+        "peak": 0.8916,
+        "crestFactor": 8.079
+      },
+      "transient": {
+        "onsetPeak": 0.267,
+        "sharpness": 8.681,
+        "activeDuration": 0.046,
+        "activeRatio": 0.9894,
+        "envelopeFlatness": 0.9928,
+        "continuousRatio": 0.7778
+      },
+      "spectral": {
+        "centroidP50Hz": 11369.8,
+        "centroidP90Hz": 11624.3,
+        "rolloffP90Hz": 20030.2,
+        "energyRatioLow": 0.0004,
+        "energyRatioMid": 0.0862,
+        "energyRatioHigh": 0.6054,
+        "highActiveDuration": 0.046,
+        "brightBurden": 0.0192,
+        "decayTo10Percent": 0.047
+      },
+      "labels": {
+        "brightness": "bright",
+        "highFrequencyRisk": "medium",
+        "envelopeShape": "continuous",
+        "tags": [
+          "select"
+        ],
+        "suggestedUses": [
+          "button press",
+          "selection",
+          "simulated user action",
+          "tiny accent only"
+        ]
+      }
+    },
+    {
+      "path": "interface/switch_002.ogg",
+      "family": "interface",
+      "filename": "switch_002.ogg",
+      "duration": 0.611,
+      "loudness": {
+        "rms": 0.0559,
+        "peak": 0.8967,
+        "crestFactor": 16.056
+      },
+      "transient": {
+        "onsetPeak": 17.063,
+        "sharpness": 45.462,
+        "activeDuration": 0.099,
+        "activeRatio": 0.1615,
+        "envelopeFlatness": 0,
+        "continuousRatio": 0.1509
+      },
+      "spectral": {
+        "centroidP50Hz": 0,
+        "centroidP90Hz": 2045,
+        "rolloffP90Hz": 3531.4,
+        "energyRatioLow": 0.0051,
+        "energyRatioMid": 0.7562,
+        "energyRatioHigh": 0.1905,
+        "highActiveDuration": 0,
+        "brightBurden": 0.0123,
+        "decayTo10Percent": 0.017
+      },
+      "labels": {
+        "brightness": "balanced",
+        "highFrequencyRisk": "medium",
+        "envelopeShape": "transient",
+        "tags": [
+          "switch"
+        ],
+        "suggestedUses": [
+          "mode change",
+          "toggle"
+        ]
+      }
+    }
+  ]
+}
